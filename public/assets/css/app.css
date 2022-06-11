@@ -1,0 +1,27 @@
+.client-item-custom{
+    margin-bottom:30px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+.footer-nav-item{
+    margin-right:10px;
+    padding-right:5px;
+}
+.footer-nav-item:not(:last-child){
+    border-right:1px solid #9d98bf;
+}
+.footer-nav-item .footer-nav-link{
+    font-size:12px;
+}
+.confirmation-bar{
+    width:150px;
+    position:fixed;
+    top:-74px;
+    right:10px;
+    z-index:99999999;
+    transition: top .25s ease;
+    -webkit-transition: top .25s ease;
+}
+.confirmation-bar.show{
+    top:10px;
+}
